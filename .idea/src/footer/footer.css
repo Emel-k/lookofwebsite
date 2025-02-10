@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    background: rgb(169,200,130);
+    background: radial-gradient(circle, rgb(187,180,145) 34%, rgba(168,124,103,1) 73%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+}
+
+footer > div > a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    padding: 50px;
+}
+
